@@ -1,0 +1,14 @@
+By default tomcat embedded with in web starter dependency.
+tomcat server runs on 8080 port by default
+if we want to change port we need to update the port in application peropeteries
+How to replace tomcat server?
+To change tomcat server to jetty we need to jetty dependency and exclude the tomcat server.
+
+What happens if server.port = 0 is created in properties file?
+This will run the application on some random available port
+What happens if server.port = -1 is created in properties file?
+The application  will start but does not accept any http request
+What happens if server.port = 1 is created in properties file?
+The application  will start on port 1
+
+Springboot provides loosely coupling feature.
